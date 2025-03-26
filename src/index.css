@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme{
+   --font-Roboto: Roboto, 'serif';
+   
+  
+
+   --color-primary: #0A2540;
+
+   --color-secondary: #4DB6AC;
+
+   --color-backgroundP: #F5F5F5;
+
+   --color-backgroundS: #E8E8E8;
+
+   --color-backgroundWHITE:#FFFFFF;
+
+   --color-nav: #4DB6AC24;
+   
+   --color-para: #333333;
+
+   --color-Cardc: #F2F2F2;
+
+   --color-bartext: #5C5C5C;
+
+   --color-bartext3: #8C8C8C;
+
+   --color-bartext4:#707070;
+
+   --color-bartext2: #BEBEBE;
+
+   --color-boderbg:#0000000D;
+
+   --color-responsive:#0075FFB2;
+
+   --color-grenny:#14FF00B2;
+
+   --color-Persistent:#E40028B2;
+
+   --color-Negotiator:#5200FFB2;
+
+   --color-Organized:#808080B2;
+
+   --color-pinnk:#F80095B2;
+
+   --color-SeconWhite:#E6E6E6;
+
+   --color-darkfade:#00000066;
+
+   --color-lightdaker:#00000099;
+
+   --color-agentStat:#000000CC;
+
+   --color-agentStatred:#DF1C1CB0;
+
+   --color-agentStatblue:#0080FFB0;
+
+   --color-agentStatyellow:#F5B843;
+
+   --color-agentStatgreen:#05DA5A;
+
+   --color-agentStatgreen40:#BBFFD666;
+
+   --color-navberbg:#ffffff5a;
+
+   
+
+   --color-activebtn:#4DB6AC;
+
+   --color-activebtn2:#0029FFA3;
+
+
+
+
+
+   
+   --rounded-20px: 20px;
+   
+   --text-9px: 9px;
+
+   --text-8px: 8px;
+
+
+   --text-13pxS: 13px;
+
+   --text-6pxS: 6px;
+
+
+
+
+
+ 
+}
+
