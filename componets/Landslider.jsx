@@ -22,7 +22,7 @@ const Landslider = () => {
     <>
         <div>
 
-    <div className='w-274 h-22.5 rounded-3xl py-3 px-5 bg-backgroundWHITE flex flex-row gap-10 justify-center justify-self-center lg:w-190 ' >
+    <div className='w-274 h-22.5 rounded-3xl py-3 px-5 bg-backgroundWHITE flex flex-row gap-10 justify-center justify-self-center lg:w-190 md:w-145.5' >
         {/* first */}
         <div className='w-64.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary flex flex-row drop-shadow-lg gap-2'>
 
@@ -44,7 +44,7 @@ const Landslider = () => {
             </div>
         </div>
         {/* third */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 '>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP3} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
@@ -54,7 +54,7 @@ const Landslider = () => {
             </div>
         </div>
         {/* forth */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP4} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
@@ -67,7 +67,7 @@ const Landslider = () => {
     </div>
     {/* swipers */}
 
-    <div className=' mt-3    w-280 h-114 rounded-xl flex justify-items-center  justify-self-center items-center lg:w-192 lg:h-116' >
+    <div className=' mt-3    w-280 h-114 rounded-xl flex justify-items-center  justify-self-center items-center lg:w-192 lg:h-116 md:w-145.5  ' >
 
 <Swiper
 modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}

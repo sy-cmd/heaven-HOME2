@@ -13,11 +13,11 @@ import P9 from '../src/assets/img/Reviews/a50da17c794f41c2b771e5502c81c73e.jfif'
 const Reviews = () => {
   return (
    <>
-   <div className='w-317 h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 '>
+   <div className='w-317 h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 md:w-176 md:h-502'>
     {/* contents */}
-    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center'>
+    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5'>
         {/* first-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:w-64.5 lg:h-192 lg:gap-1'>
+        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:w-64.5 lg:h-192 lg:gap-1 md:w-86.5 md:h-160.5'>
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P1} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -26,7 +26,7 @@ const Reviews = () => {
                 </div>
             </div>
             <div>
-            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
+            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 max-lg:w-76.5 max-lg:h-119 '>
             As a seasoned CEO with years of experience in the real estate industry, I have had the opportunity to work with numerous real estate firms, but my experience with Haven Homes has been nothing short of exceptional. Their commitment to excellence, market expertise, and customer-centric approach truly set them apart in a competitive industry. One of the standout qualities of Haven Homes is their deep understanding of the market. Whether it’s residential, commercial, or investment properties, their team possesses unparalleled expertise. Their data-driven insights and ability to anticipate market trends have proven invaluable, ensuring that clients receive the most strategic advice possible.
             </p>
 
@@ -45,8 +45,8 @@ const Reviews = () => {
 
         </div>
         {/* second-contectnts */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192'>
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5  lg:w-63.5 lg:h-94.5' >
+        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161'>
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5  lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P2} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -69,7 +69,7 @@ const Reviews = () => {
 
             </div>
             {/* inersecond */}
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5' >
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P3} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -93,7 +93,7 @@ const Reviews = () => {
             </div>
         </div>
         {/* third-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 '>
+        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:hidden '>
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P4} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -123,13 +123,95 @@ const Reviews = () => {
 
         </div>
 
-
     </div>
 
+    {/* content blow 768px */}
+    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 lg:hidden'>
+
+    <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5   md:w-86.5 md:h-160.5'>
+            <div className='flex flex-row gap-3 justify-items-center'>
+                <img className='w-17 h-17 rounded-4xl' src={P4} alt="" srcset="" />
+                <div className='flex flex-col gap-1 mt-4'>
+                    <p className='font-Roboto font-semibold text-base leading-4 text-black' >Wade Warren</p>
+                    <p className='font-Roboto font-normal text-xs leading-3 text-bartext3'>McDonald's</p>
+                </div>
+            </div>
+            <div>
+            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 md:w-76.5 md:h-119 '>
+            A company’s success is largely defined by its commitment to customer satisfaction, and Haven Homes excels in this area. Their team prioritizes personalized service, taking the time to understand each client's unique needs. They are responsive, proactive, and always willing to go the extra mile to ensure a smooth experience. The positive testimonials from their clients reflect this dedication. Their team prioritizes personalized service, taking the time to understand each client's unique needs. They are responsive, proactive, and always willing to go the extra mile to ensure a smooth experience. 
+
+
+            </p>
+
+            </div>
+           
+
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-15'>
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+
+            </div>
+
+
+        </div>
+        {/* second */}
+        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161'>
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
+            <div className='flex flex-row gap-3 justify-items-center'>
+                <img className='w-17 h-17 rounded-4xl' src={P6} alt="" srcset="" />
+                <div className='flex flex-col gap-1 mt-4'>
+                    <p className='font-Roboto font-semibold text-base leading-4 text-black' >Cody Fisher</p>
+                    <p className='font-Roboto font-normal text-xs leading-3 text-bartext3'>Gillette</p>
+                </div>
+            </div>
+            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 ' >
+            Working with Haven Homes was a pleasure. They were honest, transparent, and always put my needs first. I highly recommend them to anyone looking to buy or sell a home.
+            </p>
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+
+            </div>
+
+
+            </div>
+            {/* inersecond */}
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
+            <div className='flex flex-row gap-3 justify-items-center'>
+                <img className='w-17 h-17 rounded-4xl' src={P7} alt="" srcset="" />
+                <div className='flex flex-col gap-1 mt-4'>
+                    <p className='font-Roboto font-semibold text-base leading-4 text-black' >Floyd miles</p>
+                    <p className='font-Roboto font-normal text-xs leading-3 text-bartext3'>MasterCard</p>
+                </div>
+            </div>
+            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
+            I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process. They made it stress-free!
+            </p>
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+            <FaStar size={20} color='#F5B843' />
+
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
     {/* contents */}
-    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211  lg:h-192 lg:gap-3 lg:items-center '>
+    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 '>
         {/* first-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 '>
+        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:w-86.5 md:h-160.5 '>
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P5} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -138,7 +220,7 @@ const Reviews = () => {
                 </div>
             </div>
             <div>
-            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
+            <p className='font-Roboto font-normal leading-6 text-base text-bartext4 max-lg:w-76.5 max-lg:h-119  '>
             Another significant advantage of working with Haven Homes is their extensive industry network. Their strong connections with developers, financial institutions, legal experts, and fellow real estate professionals enable them to offer comprehensive services beyond just buying and selling. Clients benefit from access to off-market properties, exclusive deals, and valuable partnerships. I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process and made the entire home selling process easy and stress-free. I would definitely use their services again.
 
 
@@ -159,7 +241,7 @@ const Reviews = () => {
 
         </div>
         {/* second-contectnts */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192'>
+        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:hidden'>
             <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P6} alt="" srcset="" />
@@ -207,8 +289,8 @@ const Reviews = () => {
             </div>
         </div>
         {/* third-contents */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192'>
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5' >
+        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161'>
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P8} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -231,7 +313,7 @@ const Reviews = () => {
 
             </div>
             {/* inersecond */}
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5' >
+            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P9} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>

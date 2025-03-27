@@ -3,11 +3,11 @@ import React from 'react'
 const Searchbar = () => {
   return (
    <>
-   <div className=' -mt-10 w-5xl h-56.5 rounded-xl p-12 gap-7 drop-shadow-md bg-backgroundWHITE flex flex-col justify-self-center lg:w-211 lg:h-56.5 '>
+   <div className=' -mt-10 w-5xl h-56.5 rounded-xl p-12 gap-7 drop-shadow-md bg-backgroundWHITE flex flex-col justify-self-center lg:w-211 lg:h-56.5 md:w-176'>
     <h3 className='text-4xl font-semibold leading-11 font-Roboto text-primary'>Search for Available Property</h3>
 
     <div className='flex flex-row gap-7'>
-    <select className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para'  name="enter location" id="">
+    <select className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para md:w-32'  name="enter location" id="">
                 <option value="">Location</option>
                 <option value="">Lusaka</option>
                 <option value="">Kabwata</option>
@@ -15,7 +15,7 @@ const Searchbar = () => {
                 <option value="">KASAMA</option>
               </select>
 
-              <select  className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para'   name="Propety type" id="">
+              <select  className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para md:w-32'   name="Propety type" id="">
                 <option value="">Location</option>
                 <option value="">Lusaka</option>
                 <option value="">Kabwata</option>
@@ -23,7 +23,7 @@ const Searchbar = () => {
                 <option value="">KASAMA</option>
             </select>
 
-            <select  className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para'   name="enter location" id="">
+            <select  className='w-69.5 h-14.5 py-4 px-4.5 border-1 border-para rounded-xl text-para md:w-32'   name="enter location" id="">
                 <option value="">Location</option>
                 <option value="">Lusaka</option>
                 <option value="">Kabwata</option>

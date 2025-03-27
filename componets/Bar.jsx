@@ -3,9 +3,9 @@ import React from 'react'
 const Bar = () => {
   return (
     <>
-        <div className='flex flex-col w-316.5 h-100 rounded-xl gap-7 bg-primary justify-center justify-self-center  mt-10 mb-10 lg:w-211 lg:h-100 lg:justify-items-center lg:mt-20'>
+        <div className='flex flex-col w-316.5 h-100 rounded-xl gap-7 bg-primary justify-center justify-self-center  mt-10 mb-10 lg:w-211 lg:h-100 lg:justify-items-center lg:mt-20 md:w-168 md:h-100 md:justify-center md:items-center'>
 
-            <div className='w-191 h-27.5  flex flex-col justify-center justify-self-center justify-items-center gap-5 '>
+            <div className='w-191 h-27.5  flex flex-col justify-center justify-self-center justify-items-center gap-5 md:w-144.5 '>
 
             <h3 className='font-Roboto font-semibold text-5xl leading-12 text-center text-backgroundWHITE  '>Unlock Your Dream Property Today!</h3>
 

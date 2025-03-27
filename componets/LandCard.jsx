@@ -7,8 +7,8 @@ const LandCard = () => {
   return (
     <>
 
-     <div className='w-243.5 h-105.5 rounded-xl bg-Cardc border-20 border-backgroundWHITE flex flex-row gap-7 justify-center items-center justify-self-center lg:w-165.5 lg:h-212.5 lg:flex-wrap'>
-        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3'>
+     <div className='w-243.5 h-105.5 rounded-xl bg-Cardc border-20 border-backgroundWHITE flex flex-row gap-7 justify-center items-center justify-self-center lg:w-165.5 lg:h-212.5 lg:flex-wrap md:w-132 md:h-218 md:flex-wrap '>
+        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3 md:w-56 md:h-98'>
             <div className='flex items-center justify-self-center justify-center'>
             <img className='w-35.5 h-26.5 items-center' src={img1} alt="png" srcset="" />
     
@@ -33,7 +33,7 @@ const LandCard = () => {
     
         </div>
     
-        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3'>
+        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3 md:w-56 md:h-98'>
             <div className='flex items-center justify-self-center justify-center'>
             <img className='w-35.5 h-26.5 items-center' src={img2} alt="png" srcset="" />
     
@@ -58,7 +58,7 @@ const LandCard = () => {
     
         </div>
         
-        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4'>
+        <div className='w-68 h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4 md:w-56 md:h-98 md:-mt-5.5'>
             <div className='flex items-center justify-self-center justify-center'>
             <img className='w-35.5 h-26.5 items-center' src={img3} alt="png" srcset="" />
     

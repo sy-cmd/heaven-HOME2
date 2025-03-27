@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 const AgentSwiper = () => {
   return (
     <>
-        <div className='w-195.5 h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center '>
+        <div className='w-195.5 h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center md:w-156'>
             <div className='w-34.5 h-11.5 rounded-xl py-3.5 px-7 drop-shadow-xl bg-activebtn'>
                 <p className='font-Roboto font-semibold text-base leading-4 text-center text-backgroundWHITE'> 
                 Residential
@@ -36,7 +36,7 @@ const AgentSwiper = () => {
         {/* <h5 className='font-Roboto font-semibold text-2xl text-black text-center mt-2.5 mb-2.5'>Choose Agent</h5> */}
             
 
-       <div className=' w-218.5 h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc' >
+       <div className=' w-218.5 h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137' >
 
         <div>
             
@@ -56,19 +56,19 @@ const AgentSwiper = () => {
           speed={3000}
           slideToClickedSlide={true}
           pagination={{  clickable: true }}
-        //   breakpoints={{
-        //     320: { spaceBetween:70 },
-        //     430: { slidesPerView: 1, },
-        //     580: { spaceBetween:70 },
-        //     650: { spaceBetween:30 },
-        //     734: {  width: 768,
-        //       slidesPerView: 1, },
-        //     768: {  width: 768,
-        //       slidesPerView: 2, },
+          breakpoints={{
+            320: { spaceBetween:70 },
+            430: { slidesPerView: 1, },
+            580: { spaceBetween:70 },
+            650: { spaceBetween:30 },
+            734: {  width: 768,
+              slidesPerView: 1, },
+            768: {  width: 768,
+              slidesPerView: 3, },
     
-        //   }}>
+          }}>
 
-            >{/* <SwiperSlide className='w-68.5 h-109.5 rounded-2xl bg-backgroundWHITE py-4 px-5 '>
+            {/* <SwiperSlide className='w-68.5 h-109.5 rounded-2xl bg-backgroundWHITE py-4 px-5 '>
                 <div className='w-58.5 h-88 ' >
                     <div>
                         <div className=' w-58.5 h-9 bg-primary rounded-t-2xl '></div>

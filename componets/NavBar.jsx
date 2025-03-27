@@ -30,7 +30,7 @@ const NavBar = () => {
   }
   return (
     <>
-        <nav className=' w-full h-25  bg-white  lg:w-5xl md:w-192 '>
+        <nav className=' w-full h-25  bg-white   '>
             
             <div className=' w-full h-15 flex flex-row justify-between justify-self-center p-5' >
 
@@ -64,7 +64,7 @@ const NavBar = () => {
 
              
 
-               <div className='flex flex-row gap-3.5 '>
+               <div className='flex flex-row gap-3.5 md:hidden'>
                <button className=' w-40 h-14 py-4.5 px-2 rounded-xl bg-primary  text-amber-50 text-1xl  '>Buy a HOUSE</button>
                <button className='w-40 h-14 py-4.5 px-2 rounded-xl color-tealish text-amber-50 text-1xl bg-secondary'> Rent A house</button>
 
