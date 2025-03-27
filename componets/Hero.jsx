@@ -11,8 +11,8 @@ const Hero = () => {
         <img className='w-171.5 h-59 ' src={ heroHouse} alt="" />
         </div>
 
-        <div className='flex flex-col items-center gap-10'>
-        <h1 className='  text-8xl font-black leading-26.5  tracking-[16px] text-center text-primary font-Roboto ' >Your Dream Home
+        <div className='flex flex-col items-center gap-10 '>
+        <h1 className='  text-8xl font-black leading-26.5  tracking-[16px] text-center text-primary font-Roboto max-sm:w-148 max-sm:text-6xl' >Your Dream Home
         Starts Here.</h1>
         <p className=' w-148 h-12.5 text-base text-para font-light font-Roboto leading-6 text-center '>
         Find your dream home with our expert guidance. We connect you with top-rated properties 
@@ -36,12 +36,12 @@ const Hero = () => {
             <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
         </div>
 
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 max-sm:hidden'>
             <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
             <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
         </div>
 
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 max-sm:hidden'>
             <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
             <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
         </div>

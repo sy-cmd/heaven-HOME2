@@ -21,13 +21,13 @@ import 'swiper/css/scrollbar';
 export const Carslider = () => {
   return (
     <>
-    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5'>
+    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5 max-sm:w-108'>
         <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary drop-shadow-md flex flex-row gap-2.5 '>
             <img className='w-12.5 h-12.5 rounded-xl' src={MINP1} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-backgroundWHITE mt-2.5 '>All properties</p>
         </div>
 
-        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 '>
+        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-sm:hidden '>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp2} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 '>For sale</p>
         </div>
@@ -37,14 +37,14 @@ export const Carslider = () => {
             <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 '>For rent</p>
         </div>
 
-        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden'>
+        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden max-sm:hidden'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp4} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-bartext mt-2.5 '>Apartments</p>
         </div>
         
     </div>
 
-    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5' >
+    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5 max-sm:w-104 max-sm:h-116' >
 
         <Swiper
         modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
@@ -65,6 +65,8 @@ export const Carslider = () => {
           slidesPerView: 1, },
         768: {  width: 768,
           slidesPerView: 2, },
+        600: {  width: 768,
+          slidesPerView: 1, },
 
       }}>
     

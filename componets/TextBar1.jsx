@@ -3,7 +3,7 @@ import React from 'react'
 const TextBar1 = () => {
   return (
     <>
-    <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:w-177 lg:h-43.5 md:w-176 md:h-44'>
+    <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:w-177 lg:h-43.5 md:w-176 md:h-44 max-sm:w-134 max-sm:h-44.5'>
         <h1 className='text-4xl font-semibold leading-11 font-Roboto text-primary text-center'>Rent, Sell and Buy with us</h1>
         <p className='text-base font-normal leading-4 text-center font-Roboto'>Whether you're buying, selling, or renting, we make the process effortless with expert support and top-tier listings.</p>
 

@@ -14,10 +14,10 @@ import { GoLightBulb } from "react-icons/go";
 const Card = () => {
   return (
    <>
-   <div className='w-227.5 h-136 border-20 border-backgroundWHITE p-4 rounded-xl flex flex-col gap-3 justify-self-center items-center  bg-Cardc lg:w-158 lg:h-198 lg:flex-row lg:gap-4 md:w-158 md:h-198 md:flex-row'>
+   <div className='w-227.5 h-136 border-20 border-backgroundWHITE p-4 rounded-xl flex flex-col gap-3 justify-self-center items-center  bg-Cardc lg:w-158 lg:h-198 lg:flex-row lg:gap-4 md:w-158 md:h-198 md:flex-row max-sm:w-84.5 max-sm:h-141.5'>
 
-    <div className='flex flex-row gap-3 lg:flex-col md:flex-col'>
-        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md'>
+    <div className='flex flex-row gap-3 lg:flex-col md:flex-col max-sm:flex-col max-sm:gap-5'>
+        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md '>
         <LuHammer size={33} color='#0A2540' />
             <h5 className='text-xl font-semibold font-Roboto leading-5 text-primary'>Quality</h5>
 
@@ -69,7 +69,7 @@ const Card = () => {
 
         </div>
 
-        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md'>
+        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md max-sm:hidden'>
         <FaHandsBound size={33} color='#0A2540' />
             <h5 className='text-xl font-semibold font-Roboto leading-5 text-primary'>Financial Flexibility</h5>
 
@@ -97,7 +97,7 @@ const Card = () => {
       
     </div>
 
-    <div className='flex flex-row gap-3 lg:flex-col md:flex-col '>
+    <div className='flex flex-row gap-3 lg:flex-col md:flex-col max-sm:hidden '>
         <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md'>
         <LuHammer size={33} color='#0A2540' />
             <h5 className='text-xl font-semibold font-Roboto leading-5 text-primary'>Quality</h5>
