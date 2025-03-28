@@ -21,30 +21,30 @@ import 'swiper/css/scrollbar';
 export const Carslider = () => {
   return (
     <>
-    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5 max-sm:w-108 xl:w-241 '>
+    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5 max-sm:w-108 xl:w-241 xs:w-58.5'>
         <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary drop-shadow-md flex flex-row gap-2.5 '>
             <img className='w-12.5 h-12.5 rounded-xl' src={MINP1} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-5 text-backgroundWHITE mt-2.5 '>All properties</p>
         </div>
 
-        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-sm:hidden xl:flex'>
+        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-sm:hidden xl:flex xs:hidden'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp2} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-5 text-para mt-2.5 '>For sale</p>
         </div>
 
-        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden xl:flex'>
+        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden xl:flex xs:hidden'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp3} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 '>For rent</p>
         </div>
 
-        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden max-sm:hidden xl:flex'>
+        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden max-sm:hidden xl:flex xs:hidden'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp4} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-bartext mt-2.5 '>Apartments</p>
         </div>
         
     </div>
 
-    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5 max-sm:w-104 max-sm:h-116 xl:w-240.5' >
+    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5 max-sm:w-104 max-sm:h-116 xl:w-240.5 xs:w-66.5' >
 
         <Swiper
         modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
@@ -66,6 +66,18 @@ export const Carslider = () => {
         768: {  width: 768,
           slidesPerView: 2, },
         600: {  width: 768,
+          slidesPerView: 1, },
+        400: {  width: 400,
+          slidesPerView: 1, },
+        390: {  width: 390,
+          slidesPerView: 1, },
+        350: {  width: 350,
+          slidesPerView: 1, },
+        320: {  width: 320,
+          slidesPerView: 1, },
+        250: {  width: 250,
+          slidesPerView: 1, },
+        100: {  width: 100,
           slidesPerView: 1, },
 
       }}>

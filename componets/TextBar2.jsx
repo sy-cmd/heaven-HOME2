@@ -3,7 +3,7 @@ import React from 'react'
 const TextBar2 = () => {
   return (
     <>
-      <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:h-43.5 md:w-176 md:h-44 max-sm:w-134 max-sm:h-44.5 xl:w-252 xl:h-39.5'>
+      <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:h-43.5 md:w-176 md:h-44 max-sm:w-134 max-sm:h-44.5 xl:w-252 xl:h-39.5 xs:w-91 xs:h-46'>
         <h1 className='text-4xl font-semibold leading-11 font-Roboto text-primary text-center'> Your Partner in Building</h1>
         <p className='text-base font-normal leading-4 text-center font-Roboto'>From vision to reality, we oversee every detail of your construction project, ensuring your dream home becomes a tangible masterpiece.</p>
 

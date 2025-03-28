@@ -12,12 +12,12 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col items-center gap-10 max-xs:gap-2'>
-        <h1 className='  text-8xl font-black leading-26.5  tracking-[16px] text-center text-primary font-Roboto max-sm:w-148 max-sm:text-6xl max-xs:font-bold max-xs:text-9xl max-xs:leading-11  max-xs:w-80 max-xs:hidden' >Your Dream Home
+        <h1 className='  text-8xl font-black leading-26.5  tracking-[16px] text-center text-primary font-Roboto max-sm:w-148 max-sm:text-6xl max-xs:font-bold max-xs:text-9xl max-xs:leading-11  max-xs:w-80 xs:hidden ' >Your Dream Home
         Starts Here.</h1>
         
-        <h1 className='font-Roboto font-bold text-5xl text-center text-primary md:hidden lg:hidden xl:hidden  max-xs:w-80 ' >Your Dream Home
+        <h1 className='font-Roboto font-bold text-6xl  text-center text-primary md:hidden lg:hidden xl:hidden  max-xs:w-80 ' >Your Dream Home
         Starts Here.</h1>
-        <p className=' w-148 h-12.5 text-base text-para font-light font-Roboto leading-6 text-center  max-xs:w-87 max-xs:h-25'>
+        <p className=' w-148 h-12.5 text-base text-para font-light font-Roboto leading-6 text-center  xs:w-87 xs:h-25 '>
         Find your dream home with our expert guidance. We connect you with top-rated properties 
         and provide personalized service every step of the way.
         </p>
