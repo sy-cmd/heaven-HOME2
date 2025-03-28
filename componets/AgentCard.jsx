@@ -12,7 +12,7 @@ import A2 from '../src/assets/img/agent/5abf7fb8c0eb3eab2663263c1235d240 (1).png
 const AgentCard = () => {
   return (
    <>
-   <div className='flex flex-row gap-3 md:flex-col max-sm:flex-col'>
+   <div className='flex xl:flex-row gap-3 md:flex-col max-sm:flex-col'>
     {/* first-card */}
     <div className='w-111 h-70.5 rounded-xl px-4 pt-3 pb-6  bg-Cardc flex flex-col gap-3'>
     <h4 className=' font-Roboto text-xl font-semibold leading-5 text-black text-center'>Agents Stats</h4>

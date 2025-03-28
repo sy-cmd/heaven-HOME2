@@ -34,7 +34,7 @@ const NavBar = () => {
             
             <div className=' w-full h-15 flex flex-row justify-between justify-self-center p-5' >
 
-            <button  className='' onClick={showSideBar} id='menubtn' >    <IoIosMenu size={50} color='#0A2540' /></button>
+            <button  className='xl:hidden' onClick={showSideBar} id='menubtn' >    <IoIosMenu size={50} color='#0A2540' /></button>
 
                <div className=''>
                 
@@ -64,7 +64,7 @@ const NavBar = () => {
 
              
 
-               <div className='flex flex-row gap-3.5 md:hidden max-sm:hidden'>
+               <div className='flex flex-row gap-3.5 md:hidden max-sm:hidden xl:flex'>
                <button className=' w-40 h-14 py-4.5 px-2 rounded-xl bg-primary  text-amber-50 text-1xl  '>Buy a HOUSE</button>
                <button className='w-40 h-14 py-4.5 px-2 rounded-xl color-tealish text-amber-50 text-1xl bg-secondary'> Rent A house</button>
 

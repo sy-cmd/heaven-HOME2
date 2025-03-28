@@ -20,6 +20,7 @@ import LandCard from '../componets/LandCard'
 import MainLandC from '../componets/MainLandC'
 import TexttBar4 from '../componets/TexttBar4'
 import Textbar5 from '../componets/Textbar5'
+import Testing from '../componets/Testing'
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
       <Reviews/>
       <Bar/>
       <Footer/>
+
+      <Testing/>
 
    
    

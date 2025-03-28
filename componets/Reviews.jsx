@@ -13,11 +13,11 @@ import P9 from '../src/assets/img/Reviews/a50da17c794f41c2b771e5502c81c73e.jfif'
 const Reviews = () => {
   return (
    <>
-   <div className='w-317 h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 md:w-176 md:h-502 max-sm:w-134 max-sm:h-405.5'>
+   <div className='xl:w-317 xl:h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 md:w-176 md:h-502 max-sm:w-134 max-sm:h-405.5'>
     {/* contents */}
-    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 max-sm:w-134 max-sm:h-204.5'>
+    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 max-sm:w-134 max-sm:h-204.5'>
         {/* first-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:w-64.5 lg:h-192 lg:gap-1 md:w-86.5 md:h-160.5 max-sm:w-65.5 max-sm:h-204.5'>
+        <div className='xl:w-103.5 xl:h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:w-64.5 lg:h-192 lg:gap-1 md:w-86.5 md:h-160.5 max-sm:w-65.5 max-sm:h-204.5'>
 
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P1} alt="" srcset="" />
@@ -47,8 +47,8 @@ const Reviews = () => {
         </div>
 
         {/* second-contectnts */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161 max-sm:w-65.5 max-sm:h-204.5 '>
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5  lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5 max-sm:h-101 max-sm:gap-10' >
+        <div className=' xl:w-103.5 xl:h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161 max-sm:w-65.5 max-sm:h-204.5 '>
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col xl:gap-2.5  lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5 max-sm:h-101 max-sm:gap-10' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P2} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -59,7 +59,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 ' >
             Haven Homes exceeded my expectations. They were knowledgeable, responsive, and truly cared about finding me the right property. I'm so grateful for their help.
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <div className=' - flex flex-row gap-2 mt-5 xl:mt-0 lg:mt-18'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
@@ -71,7 +71,7 @@ const Reviews = () => {
 
             </div>
             {/* inersecond */}
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5 max-sm:h-101 max-sm:gap-13' >
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5 max-sm:h-101 max-sm:gap-13' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P3} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -82,7 +82,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
             I was impressed by Haven Homes professionalism and dedication. They went above and beyond to ensure a smooth and successful transaction. Thank you!
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-23'>
+            <div className=' - flex flex-row gap-2 mt-5 xl:mt-0 lg:mt-23'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
@@ -95,7 +95,7 @@ const Reviews = () => {
             </div>
         </div>
         {/* third-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:hidden max-sm:hidden'>
+        <div className='xl:w-103.5 xl:h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:hidden max-sm:hidden xl:flex'>
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P4} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -211,9 +211,9 @@ const Reviews = () => {
 
 
     {/* contents */}
-    <div className='w-317 h-136.5 flex flex-row gap-3 lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 max-sm:w-134 max-sm:h-204.5'>
+    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 max-sm:w-134 max-sm:h-204.5'>
         {/* first-contents */}
-        <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:w-86.5 md:h-160.5  max-sm:hidden'>
+        <div className='xl:w-103.5 xl:h-136.5 xl:flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5 md:w-86.5 md:h-160.5  max-sm:hidden'>
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P5} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -243,8 +243,8 @@ const Reviews = () => {
 
         </div>
         {/* second-contectnts */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:hidden max-sm:w-65.5 max-sm:h-198 '>
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-8' >
+        <div className=' xl:w-103.5 xl:h-136.5 xl:flex flex-col gap-5 lg:w-63.5  lg:h-192 md:hidden max-sm:w-65.5 max-sm:h-198 '>
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-8' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P6} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -255,7 +255,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 ' >
             Working with Haven Homes was a pleasure. They were honest, transparent, and always put my needs first. I highly recommend them to anyone looking to buy or sell a home.
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <div className=' - flex flex-row gap-2 mt-5 xl:mt-0 lg:mt-18'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
@@ -267,7 +267,7 @@ const Reviews = () => {
 
             </div>
             {/* inersecond */}
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10' >
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P7} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -278,7 +278,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
             I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process. They made it stress-free!
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18 xl:mt-0'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
@@ -291,8 +291,8 @@ const Reviews = () => {
             </div>
         </div>
         {/* third-contents */}
-        <div className=' w-103.5 h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161  max-sm:w-65.5 max-sm:h-198'>
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10 ' >
+        <div className=' xl:w-103.5 xl:h-136.5 flex flex-col gap-5 lg:w-63.5  lg:h-192 md:w-86.5 md:h-161  max-sm:w-65.5 max-sm:h-198'>
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10 ' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P8} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -303,7 +303,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 ' >
             The team at Haven Homes is amazing! They were patient, understanding, and always available to answer my questions. I couldn't be happier with my experience.
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18 xl:mt-0'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
@@ -315,7 +315,7 @@ const Reviews = () => {
 
             </div>
             {/* inersecond */}
-            <div className='w-103.5 h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10' >
+            <div className='xl:w-103.5 xl:h-66.5 rounded-xl p-5 bg-backgroundWHITE flex flex-col gap-2.5 lg:w-63.5 lg:h-94.5 md:w-86.5 md:h-79 max-sm:w-65.5  max-sm:h-97.5 max-sm:gap-10' >
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P9} alt="" srcset="" />
                 <div className='flex flex-col gap-1 mt-4'>
@@ -326,7 +326,7 @@ const Reviews = () => {
             <p className='font-Roboto font-normal leading-6 text-base text-bartext4 '>
             I'm so thankful for the team at Haven Homes. They made the entire home selling process easy and stress-free. I would definitely use their services again.
             </p>
-            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18'>
+            <div className=' - flex flex-row gap-2 mt-5 lg:mt-18 xl:mt-0'>
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
             <FaStar size={20} color='#F5B843' />
