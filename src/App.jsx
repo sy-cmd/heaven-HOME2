@@ -43,8 +43,7 @@ const App = () => {
       <Bar/>
       <Footer/>
 
-      <Testing/>
-
+    
    
    
 

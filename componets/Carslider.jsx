@@ -37,7 +37,7 @@ export const Carslider = () => {
             <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 '>For rent</p>
         </div>
 
-        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden max-sm:hidden xl:flex'>
+        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-md:hidden max-sm:hidden xl:flex lg:-ml-5.5'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp4} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-bartext mt-2.5 '>Apartments</p>
         </div>
