@@ -3,7 +3,7 @@ import React from 'react'
 const TexttBar4 = () => {
   return (
     <>
-         <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:h-43.5 md:w-176 md:h-44 max-sm:w-134 max-sm:h-44.5 xl:w-252 xl:h-39.5'>
+         <div className='w-252 h-39.5 flex flex-col gap-5 items-center justify-self-center mt-20 mb-20 lg:h-43.5 md:w-176 md:h-44 sm:w-134 sm:h-44.5 xl:w-252 xl:h-39.5'>
         <h1 className='text-4xl font-semibold leading-11 font-Roboto text-primary text-center'>Exceptional Land Deals – Secure Yours Today</h1>
         <p className='text-base font-normal leading-4 text-center font-Roboto'>Discover prime land in sought-after locations, perfect for building, investing, or expanding your vision. Explore our exclusive listings today!</p>
 

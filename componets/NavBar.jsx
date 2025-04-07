@@ -64,7 +64,7 @@ const NavBar = () => {
 
              
 
-               <div className='flex flex-row gap-3.5 md:hidden max-sm:hidden xl:flex'>
+               <div className='flex flex-row gap-3.5 md:hidden max-sm:hidden sm:hidden xl:flex'>
                <button className=' w-40 h-14 py-4.5 px-2 rounded-xl bg-primary  text-amber-50 text-1xl  '>Buy a HOUSE</button>
                <button className='w-40 h-14 py-4.5 px-2 rounded-xl color-tealish text-amber-50 text-1xl bg-secondary'> Rent A house</button>
 

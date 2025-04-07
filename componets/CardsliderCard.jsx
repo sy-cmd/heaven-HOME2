@@ -6,8 +6,8 @@ import card3 from '../src/assets/img/CARD/Annotation 2025-02-26 163441.png'
 const CardsliderCard = () => {
   return (
    <>
-   <div className='w-243.5 h-105.5 rounded-xl bg-Cardc border-20 border-backgroundWHITE flex flex-row gap-7 justify-center items-center justify-self-center lg:w-166 lg:h-201.5 lg:flex-wrap md:w-132 md:h-207 md:flex-wrap md:gap-4 max-sm:w-76 max-sm:h-317 max-sm:flex-col xl:flex-row xl:w-243.5 xl:h-106'>
-    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4 md:w-56 md:h-92.5 max-sm:w-56 max-sm:h-92.5'>
+   <div className='w-243.5 h-105.5 rounded-xl bg-Cardc border-20 border-backgroundWHITE flex flex-row gap-7 justify-center items-center justify-self-center lg:w-166 lg:h-201.5 lg:flex-wrap md:w-132 md:h-207 md:flex-wrap md:gap-4 sm:w-76 sm:h-317 sm:flex-col xl:flex-row xl:w-243.5 xl:h-106'>
+    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4 md:w-56 md:h-92.5 sm:w-56 sm:h-92.5'>
         <div className='flex items-center justify-self-center justify-center'>
         <img className='w-35.5 h-26.5 items-center' src={card1} alt="png" srcset="" />
 
@@ -32,7 +32,7 @@ const CardsliderCard = () => {
 
     </div>
 
-    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4 md:w-56 md:h-92.5 max-sm:w-56 max-sm:h-92.5'>
+    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-4 md:w-56 md:h-92.5 sm:w-56 sm:h-92.5'>
         <div className='flex items-center justify-self-center justify-center'>
         <img className='w-35.5 h-26.5 items-center' src={card2} alt="png" srcset="" />
 
@@ -57,7 +57,7 @@ const CardsliderCard = () => {
 
     </div>
     
-    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3 md:w-56 md:h-92.5 md:-mt-5.5 max-sm:w-56 max-sm:h-92.5 xl:mt-0'>
+    <div className='xl:w-68 xl:h-86 rounded-xl p-6 bg-backgroundWHITE drop-shadow-md flex flex-col gap-3 md:w-56 md:h-92.5 md:-mt-5.5 sm:w-56 sm:h-92.5 xl:mt-0'>
         <div className='flex items-center justify-self-center justify-center'>
         <img className='w-35.5 h-26.5 items-center' src={card3} alt="png" srcset="" />
 

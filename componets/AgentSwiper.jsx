@@ -14,15 +14,15 @@ import 'swiper/css/scrollbar';
 const AgentSwiper = () => {
   return (
     <>
-        <div className='xl:w-195.5 xl:h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center md:w-156  max-sm:w-111 lg:justify-items-center'>
-            <div className='w-34.5 h-11.5 rounded-xl py-3.5 px-7 drop-shadow-xl bg-activebtn'>
-                <p className='font-Roboto font-semibold text-base leading-4 text-center text-backgroundWHITE'> 
+        <div className='xl:w-195.5 xl:h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center md:w-156 md:h-[57px]  sm:w-111 sm:h-[67px] lg:justify-items-center'>
+            <div className='w-34.5 h-11.5 rounded-xl py-3.5 px-7 drop-shadow-xl md:-mt-1 bg-activebtn'>
+                <p className='font-Roboto font-semibold text-base leading-4 text-center text-backgroundWHITE  '> 
                 Residential
                 </p>
 
             </div>
-            <div className='w-195.5 h-16.5 flex justify-items-center mt-3 max-sm:hidden'>  <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Commercial</p></div>
-            <div className='w-195.5 h-16.5 mt-3 max-sm:hidden'> <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Luxury</p></div>
+            <div className='w-195.5 h-16.5 flex justify-items-center mt-3 sm:hidden'>  <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Commercial</p></div>
+            <div className='w-195.5 h-16.5 mt-3 sm:hidden'> <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Luxury</p></div>
             <div className='w-195.5 h-16.5 mt-3 '>   <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Construction</p> </div>
             <div className='w-195.5 h-16.5 mt-3 '>  <p className='font-Roboto font-semibold text-base leading-4 text-center text-Organized'>Land</p> </div>
            
@@ -36,7 +36,7 @@ const AgentSwiper = () => {
         {/* <h5 className='font-Roboto font-semibold text-2xl text-black text-center mt-2.5 mb-2.5'>Choose Agent</h5> */}
             
 
-       <div className=' lg:w-197 xl:w-218.5 xl:h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137 max-sm:w-111 max-sm:h-137' >
+       <div className=' lg:w-197 xl:w-218.5 xl:h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137 sm:w-111 sm:h-137' >
 
         <div>
             
@@ -63,22 +63,12 @@ const AgentSwiper = () => {
             650: { spaceBetween:30 },
             600: {  width: 768,
               slidesPerView: 1, },
-            768: {  width: 768,
-              slidesPerView: 3, },
+            767: {  width: 767,
+              slidesPerView: 1, },
     
           }}>
 
-            {/* <SwiperSlide className='w-68.5 h-109.5 rounded-2xl bg-backgroundWHITE py-4 px-5 '>
-                <div className='w-58.5 h-88 ' >
-                    <div>
-                        <div className=' w-58.5 h-9 bg-primary rounded-t-2xl '></div>
-
-                    </div>
-
-
-                </div>
-
-            </SwiperSlide> */}
+        
 
             <SwiperSlide>
                 
