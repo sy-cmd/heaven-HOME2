@@ -67,8 +67,8 @@ export const Carslider = () => {
           slidesPerView: 2, },
         600: {  width: 768,
           slidesPerView: 1, },
-        200: {  width: 200,
-          slidesPerView: 1, },
+        1280: {  width: 1280,
+          slidesPerView: 3, },
 
       }}>
     
