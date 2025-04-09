@@ -29,7 +29,7 @@ const Hero = () => {
         Find your dream home with our expert guidance. We connect you with top-rated properties 
         and provide personalized service every step of the way.
         </p>
-        <div className='flex flex-row gap-6 justify-self-center mb-3 -mt-6'>
+        <div className='flex flex-row gap-6 justify-self-center mb-3 -mt-6 max-xs:-mt-2.5'>
             <button className=' cursor-pointer py-4.5 px-9 bg-primary rounded-xl text-white text-base text-center  font-semibold font-Roboto'>Get started </button>
             <button className=' cursor-pointer py-4 px-9 border-2 border-para rounded-xl text-para text-base text-center font-semibold font-Roboto '> Learn more </button>
         </div>

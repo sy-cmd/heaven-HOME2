@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 const AgentSwiper = () => {
   return (
     <>
-        <div className='xl:w-195.5 xl:h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center md:w-156 md:h-[57px]  sm:w-111 sm:h-[67px] lg:justify-items-center'>
+        <div className='xl:w-195.5 xl:h-16.5 rounded-2xl py-2.5 px-4 bg-Cardc flex flex-row gap-5 justify-items-center justify-self-center md:w-156 md:h-[57px]  sm:w-111 sm:h-[67px] lg:justify-items-center max-xs:hidden'>
             <div className='w-34.5 h-11.5 rounded-xl py-3.5 px-7 drop-shadow-xl md:-mt-1 bg-activebtn'>
                 <p className='font-Roboto font-semibold text-base leading-4 text-center text-backgroundWHITE  '> 
                 Residential
@@ -36,7 +36,7 @@ const AgentSwiper = () => {
         {/* <h5 className='font-Roboto font-semibold text-2xl text-black text-center mt-2.5 mb-2.5'>Choose Agent</h5> */}
             
 
-       <div className=' lg:w-197 xl:w-218.5 xl:h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137 sm:w-111 sm:h-137' >
+       <div className=' lg:w-197 xl:w-218.5 xl:h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137 sm:w-111 sm:h-137 max-xs:w-[342px] max-xs:h-[677px]' >
 
         <div>
             
@@ -61,8 +61,10 @@ const AgentSwiper = () => {
             430: { slidesPerView: 1, },
             580: { spaceBetween:70 },
             650: { spaceBetween:30 },
-            600: {  width: 768,
-              slidesPerView: 1, },
+            1200: {  width: 1200,
+              slidesPerView: 3, },
+            1024: {  width: 1024,
+              slidesPerView: 3, },
             767: {  width: 767,
               slidesPerView: 1, },
     

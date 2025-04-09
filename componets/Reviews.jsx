@@ -13,11 +13,11 @@ import P9 from '../src/assets/img/Reviews/a50da17c794f41c2b771e5502c81c73e.jfif'
 const Reviews = () => {
   return (
    <>
-   <div className='xl:w-317 xl:h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 md:w-176 md:h-502 sm:w-134 sm:h-405.5'>
+   <div className='xl:w-317 xl:h-276 flex flex-col gap-3 justify-self-center lg:w-211 lg:h-380.5 md:w-176 md:h-502 sm:w-134 sm:h-405.5 max-xs:w-[363] max-xs:h-[1364] max-xs:justify-items-center' >
     {/* contents */}
-    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 sm:w-134 sm:h-204.5'>
+    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:w-211 lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 sm:w-134 sm:h-204.5 max-xs:flex-col max-xs:w-[363px]  max-xs:justify-items-center'>
         {/* first-contents */}
-        <div className='xl:w-103.5 xl:h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:flex lg:w-70.5 lg:h-192 lg:gap-1 md:w-86.5 md:h-160.5 sm:w-65.5 sm:h-204.5'>
+        <div className='xl:w-103.5 xl:h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl lg:flex lg:w-70.5 lg:h-192 lg:gap-1 md:w-86.5 md:h-160.5 sm:w-65.5 sm:h-204.5 max-xs:w-[363px]'>
 
             <div className='flex flex-row gap-3 justify-items-center'>
                 <img className='w-17 h-17 rounded-4xl' src={P1} alt="" srcset="" />
@@ -128,7 +128,7 @@ const Reviews = () => {
     </div>
 
     {/* content blow 768px */}
-    <div className='w-317 h-136.5 flex flex-row gap-3  lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 lg:hidden sm:hidden'>
+    <div className='w-317 h-136.5 flex flex-row gap-3  lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 lg:hidden sm:hidden max-xs:hidden'>
 
     <div className='w-103.5 h-136.5 flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-64.5 lg:h-192 lg:gap-5   md:w-86.5 md:h-160.5'>
             <div className='flex flex-row gap-3 justify-items-center'>
@@ -211,7 +211,7 @@ const Reviews = () => {
 
 
     {/* contents */}
-    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:flex lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 sm:w-134 sm:h-204.5'>
+    <div className='xl:w-317 xl:h-136.5 flex flex-row gap-3 lg:flex lg:w-211  lg:h-192 lg:gap-3 lg:items-center md:w-176 md:h-160.5 sm:w-134 sm:h-204.5 max-xs:hidden'>
         {/* first-contents */}
         <div className='xl:w-103.5 xl:h-136.5 xl:flex flex-col p-5 gap-3 bg-backgroundWHITE rounded-xl  lg:w-70.5 lg:h-192 lg:gap-5 md:w-86.5 md:h-160.5  sm:hidden'>
             <div className='flex flex-row gap-3 justify-items-center'>
