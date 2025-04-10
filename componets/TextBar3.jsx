@@ -11,8 +11,8 @@ const TextBar3 = () => {
             <div>
                 
             </div>
-            <button className=' cursor-pointer py-4.5 px-9 bg-primary rounded-xl text-white text-base text-center  font-semibold font-Roboto'>Get started </button>
-            <button className=' cursor-pointer py-4 px-9 border-2 border-para rounded-xl text-para text-base text-center font-semibold font-Roboto '> Learn more </button>
+            <button className=' cursor-pointer hover:bg-[#183c59]  py-4.5 px-9 bg-primary rounded-xl text-white text-base text-center  font-semibold font-Roboto'>Get started </button>
+            <button className=' cursor-pointer hover:bg-gray-50py-4 px-9 border-2 border-para rounded-xl text-para text-base text-center font-semibold font-Roboto '> Learn more </button>
         </div>
     </div>
     </>

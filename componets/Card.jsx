@@ -69,7 +69,7 @@ const Card = () => {
 
         </div>
 
-        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md xl:flex sm:hidden max-xs:hidden'>
+        <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md xl:flex lg:flex sm:hidden max-xs:hidden'>
         <FaHandsBound size={33} color='#0A2540' />
             <h5 className='text-xl font-semibold font-Roboto leading-5 text-primary'>Financial Flexibility</h5>
 
@@ -97,7 +97,7 @@ const Card = () => {
       
     </div>
 
-    <div className='flex xl:flex-row gap-3 lg:flex-col md:flex-col xl:flex sm:hidden max-xs:hidden '>
+    <div className='flex xl:flex-row gap-3 lg:flex-col md:flex-col xl:flex sm:hidden lg:flex max-xs:hidden '>
         <div className='bg-backgroundWHITE w-68 h-58 rounded-xl p-6 flex flex-col gap-4 drop-shadow-md'>
         <LuHammer size={33} color='#0A2540' />
             <h5 className='text-xl font-semibold font-Roboto leading-5 text-primary'>Quality</h5>

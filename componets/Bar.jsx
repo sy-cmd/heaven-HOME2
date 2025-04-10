@@ -16,7 +16,7 @@ const Bar = () => {
 
            
             <div className=' flex items-center justify-center ' >
-            <button className=' w-48.5 h-16 py-4.5 px-9 bg-secondary rounded-xl  text-backgroundWHITE'>Get started</button>
+            <button className=' w-48.5 h-16 py-4.5 px-9 bg-secondary rounded-xl  text-backgroundWHITE cursor-pointer hover:bg-[#52d1c5]'>Get started</button>
 
               
          

@@ -33,7 +33,6 @@ const AgentSwiper = () => {
 
         </div>
 
-        {/* <h5 className='font-Roboto font-semibold text-2xl text-black text-center mt-2.5 mb-2.5'>Choose Agent</h5> */}
             
 
        <div className=' lg:w-197 xl:w-218.5 xl:h-135 flex justify-self-center items-center justify-center justify-items-center py-3 px-10 rounded-xl bg-Cardc md:w-156 md:h-137 sm:w-111 sm:h-137 max-xs:w-[342px] max-xs:h-[677px]' >
@@ -48,7 +47,7 @@ const AgentSwiper = () => {
     
             <Swiper
             modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
-            spaceBetween={50}
+            spaceBetween={10}
           grabCursor={true}
           initialSlide={3}
           centeredSlides={true}
@@ -61,7 +60,7 @@ const AgentSwiper = () => {
             430: { slidesPerView: 1, },
             580: { spaceBetween:70 },
             650: { spaceBetween:30 },
-            1200: {  width: 1200,
+            1280: {  width: 1280,
               slidesPerView: 3, },
             1024: {  width: 1024,
               slidesPerView: 3, },
@@ -75,13 +74,11 @@ const AgentSwiper = () => {
             <SwiperSlide>
                 
 
-                <div className=''>
-
-                </div>
-                <div className='w-68.5 h-109.5 flex flex-col items-center  gap-3 bg-backgroundWHITE  rounded-2xl py-4 px-5 drop-shadow-lg '>
+                
+                <div className='w-68.5 h-109.5 flex flex-col items-center  gap-3 bg-backgroundWHITE  rounded-2xl py-0 px-0 drop-shadow-lg '>
 
                     <div className='w-58.5 h-9 pt-2 pb-2 bg-primary rounded-t-xl '></div>
-                    <div className='flex flex-col justify-center items-center justify-self-center -mt-7.5'>
+                    <div className='flex flex-col justify-center items-center justify-self-center -mt-1'>
                     <img className='w-17.5 h-17.5 rounded-4xl flex justify-center border-1 border-para' src={A1} alt="agent-pic" srcset="" />
                     <p className='text-base font-bold leading-4 font-Roboto text-black'>Emily soccker</p>
                     </div>

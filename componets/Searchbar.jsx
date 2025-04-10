@@ -34,7 +34,7 @@ const Searchbar = () => {
             </select>
             
 
-            <button className='w-38 h-14.5 py-4 px-4.5 bg-primary rounded-xl text-amber-50 text-base font-semibold  font-Roboto  cursor-pointer hover:bg-amber-900  xl:w-57 xl:h-14.5 ' > Search Now</button>
+            <button className='w-38 h-14.5 py-4 px-4.5 bg-primary rounded-xl text-amber-50 text-base font-semibold  font-Roboto cursor-pointer hover:bg-[#183c59]  xl:w-57 xl:h-14.5 ' > Search Now</button>
 
 
     </div>

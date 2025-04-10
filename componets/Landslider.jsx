@@ -28,7 +28,7 @@ const Landslider = () => {
 
             <img className='w-12.5 h-12.5 rounded-lg max-xs:hidden' src={miniP1} alt="land-pic" srcset="" />
             <div className='mt-2.5 max-xs:flex max-xs:justify-center max-xs:mt-0'>
-                <p className='font-Roboto font-medium text-2xl text-backgroundWHITE sm:hidden max-xs:hidden xl:flex'>  All  Types</p>
+                <p className='font-Roboto font-medium text-2xl text-backgroundWHITE sm:hidden max-xs:hidden xl:flex lg:flex'>  All  Types</p>
                 <p className=' w-14.5 h-4 font-Roboto font-medium text-[14px] text-backgroundWHITE xl:hidden md:hidden text-center'>  All Types</p>
           
 
@@ -46,21 +46,21 @@ const Landslider = () => {
             </div>
         </div>
         {/* third */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden lg:flex'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP3} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl text-bartext xl:w-[130px] '>  Resort Land</p>
+                <p className='font-Roboto font-medium text-2xl text-bartext xl:w-[130px] w-[130px] '>  Resort Land</p>
           
 
             </div>
         </div>
         {/* forth */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden lg:flex'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP4} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl  text-bartext xl:w-[127px]'> Farm Land</p>
+                <p className='font-Roboto font-medium text-2xl  text-bartext xl:w-[127px] w-[127px]'> Farm Land</p>
           
 
             </div>

@@ -5,9 +5,9 @@ import logo from '../src/assets/img/logo/Annotation 2025-03-05 162204.png'
 const Footer = () => {
   return (
     <>
-    <div className='xl:w-full xl:h-226.5 bg-primary flex flex-col gap-10 justify-items-center justify-center lg:w-5xl lg:h-358.5 md:w-192 md:h-358.5 sm:w-150 sm:h-358.5 max-xs:justify-center'>
+    <div className='xl:w-full xl:gap-3.5 xl:h-226.5 bg-primary flex flex-col gap-10 justify-items-center justify-center lg:w-5xl lg:h-358.5 md:w-192 md:h-358.5 sm:w-150 sm:h-358.5 max-xs:justify-center'>
 
-        <div className=' ml-10 xl:w-315 xl:h-164 flex xl:flex-col gap-12 justify-items-center justify-self-center lg:flex-col lg:gap-2.5 lg:w-211 lg:h-287.5 md:w-176 md:h-287 sm:w-108 md:flex-col sm:flex-col  sm:h-287.5 max-xs:flex-col max-xs:justify-items-center'>
+        <div className=' ml-10 xl:w-315 xl:h-164 flex xl:justify-items-center  xl:flex-col gap-12 justify-items-center justify-self-center lg:flex-col lg:gap-2.5 lg:w-211 lg:h-287.5 md:w-176 md:h-287 sm:w-108 md:flex-col sm:flex-col  sm:h-287.5 max-xs:flex-col max-xs:justify-items-center'>
             <div className='flex flex-row gap-1  justify-items-center '>
                 <img className='w-16 h-15 rounded-xl py-1 px-2' src={logo} alt="logo" srcset="" />
                 <p className=' mt-4 text-3xl font-Roboto font-extrabold leading-9 text-backgroundWHITE'>Haven Homes</p>
@@ -20,12 +20,12 @@ const Footer = () => {
 
                     <div className='flex flex-row  gap-6'>
                         <input className='w-63 h-13.5 rounded-xl border-1 border-backgroundWHITE py-4.5 px-2.5 text-xs font-Roboto font-normal leading-3 text-bartext2' type="email" placeholder='Enter Email' name='email' required />
-                        <button className='w-36 h-13.5 rounded-xl py-4.5 px-9 bg-secondary font-Roboto font-semibold text-base text-center text-backgroundWHITE '> Subscribe</button>
+                        <button className='w-36 h-13.5 rounded-xl py-4.5 px-9 bg-secondary font-Roboto font-semibold text-base text-center text-backgroundWHITE  cursor-pointer hover:bg-[#52d1c5]'> Subscribe</button>
                     </div>
                 </div>
 
        {/* innerDIV */}
-        <div className='   xl:w-266.5 xl:h-164 xl:-mt-5 flex xl:flex-row xl:gap-10 justify-center justify-self-center  lg:flex-col lg:mt-10 lg:w-211   md:flex-col md:gap-10  md:w-111.5 md:h-258.5 sm:w-108  sm:flex-col sm:h-287.5 max-xs:flex-col max-xs:gap-10 max-xs:w-[363px] max-xs:h-[1254px] max-xs:mt-0'>
+        <div className='   xl:w-266.5 xl:h-164 xl:mt-5 flex xl:flex-row xl:gap-40 xl:ml-6.5 justify-center justify-self-center  lg:flex-col lg:mt-10 lg:w-211   md:flex-col md:gap-10  md:w-111.5 md:h-258.5 sm:w-108  sm:flex-col sm:h-287.5 max-xs:flex-col max-xs:gap-10 max-xs:w-[363px] max-xs:h-[1254px] max-xs:mt-0'>
             {/* first-row */}
             <div className='flex xl:flex-col gap-16 lg:flex-row md:flex-row sm:flex-row max-xs:flex-row'>
                 <div className='flex flex-col gap-6 xl:w-45' >
@@ -102,7 +102,7 @@ const Footer = () => {
 
                     <div className='flex flex-row  gap-6'>
                         <input className='w-63 h-13.5 rounded-xl border-1 border-backgroundWHITE py-4.5 px-2.5 text-xs font-Roboto font-normal leading-3 text-bartext2' type="email" placeholder='Enter Email' name='email' required />
-                        <button className='w-36 h-13.5 rounded-xl py-4.5 px-9 bg-secondary font-Roboto font-semibold text-base text-center text-backgroundWHITE '> Subscribe</button>
+                        <button className='w-36 h-13.5 rounded-xl py-4.5 px-9 bg-secondary font-Roboto font-semibold text-base text-center text-backgroundWHITE cursor-pointer hover:bg-[#52d1c5] '> Subscribe</button>
                     </div>
                 </div>
 
@@ -119,17 +119,17 @@ const Footer = () => {
                     <div className='flex flex-col gap-3 '>
                         <p className='font-Roboto font-semibold text-xl leading-5 text-backgroundWHITE'>Follow us</p>
 
-                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE'>
+                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE cursor-pointer hover:bg-[#52d1c5]'>
                         <FaMeta /> 
 
                         </div>
 
-                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE'>
+                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE cursor-pointer hover:bg-[#52d1c5]'>
                         <FaXTwitter />
 
                         </div>
 
-                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE'>
+                        <div className='w-8.5 h-8.5 rounded-lg p-2 bg-secondary text-backgroundWHITE cursor-pointer hover:bg-[#52d1c5]'>
                         <FaInstagram /> 
 
                         </div>
