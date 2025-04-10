@@ -22,45 +22,45 @@ const Landslider = () => {
     <>
         <div>
 
-    <div className='xl:w-274 xl:h-22.5 rounded-3xl py-3 px-5 bg-backgroundWHITE flex flex-row gap-10 justify-center justify-self-center lg:w-190 md:w-145.5 max-sm:w-108 ' >
+    <div className='xl:w-[964px] xl:h-22.5 rounded-3xl py-3 px-5 bg-backgroundWHITE flex flex-row gap-10 justify-center justify-self-center lg:w-190 md:w-145.5 sm:w-108  max-xs:w-[234px] max-xs:h-[56px]' >
         {/* first */}
-        <div className='w-64.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary flex flex-row drop-shadow-lg gap-2 '>
+        <div className='w-64.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary flex flex-row drop-shadow-lg gap-2 max-xs:w-[82px] max-xs:h-[32px]'>
 
-            <img className='w-12.5 h-12.5 rounded-lg' src={miniP1} alt="land-pic" srcset="" />
-            <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl text-backgroundWHITE max-sm:hidden'>  All Land Types</p>
-                <p className='font-Roboto font-medium text-xl text-backgroundWHITE xl:hidden'>  All Types</p>
+            <img className='w-12.5 h-12.5 rounded-lg max-xs:hidden' src={miniP1} alt="land-pic" srcset="" />
+            <div className='mt-2.5 max-xs:flex max-xs:justify-center max-xs:mt-0'>
+                <p className='font-Roboto font-medium text-2xl text-backgroundWHITE sm:hidden max-xs:hidden xl:flex lg:flex'>  All  Types</p>
+                <p className=' w-14.5 h-4 font-Roboto font-medium text-[14px] text-backgroundWHITE xl:hidden md:hidden text-center'>  All Types</p>
           
 
             </div>
         </div>
         {/* second */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 lg:hidden xl:flex'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 lg:hidden xl:flex  max-xs:w-[92px] max-xs:h-[32px]'>
 
-            <img className='w-12.5 h-12.5 rounded-lg' src={miniP2} alt="land-pic" srcset="" />
-            <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl text-bartext max-sm:hidden xl:flex'>  Ranch Land</p>
-                <p className='font-Roboto font-normal text-base text-bartext xl:hidden'>  Ranch Land</p>
+            <img className='w-12.5 h-12.5 rounded-lg max-xs:hidden' src={miniP2} alt="land-pic" srcset="" />
+            <div className='mt-2.5  max-xs:flex max-xs:justify-center max-xs:mt-0'>
+                <p className='font-Roboto font-medium text-2xl text-bartext sm:hidden xl:flex max-xs:hidden xl:w-[127px]'>  Ranch Land</p>
+                <p className='font-Roboto font-normal text-[14px] text-bartext xl:hidden md:hidden'>  Ranch </p>
           
 
             </div>
         </div>
         {/* third */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden max-sm:hidden xl:flex'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden lg:flex'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP3} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl text-bartext'>  Resort Land</p>
+                <p className='font-Roboto font-medium text-2xl text-bartext xl:w-[130px] w-[130px] '>  Resort Land</p>
           
 
             </div>
         </div>
         {/* forth */}
-        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden max-sm:hidden xl:flex'>
+        <div className='w-57 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc flex flex-row drop-shadow-lg gap-2 md:hidden sm:hidden xl:flex max-xs:hidden lg:flex'>
 
             <img className='w-12.5 h-12.5 rounded-lg' src={miniP4} alt="land-pic" srcset="" />
             <div className='mt-2.5'>
-                <p className='font-Roboto font-medium text-2xl text-bartext'> Farm Land</p>
+                <p className='font-Roboto font-medium text-2xl  text-bartext xl:w-[127px] w-[127px]'> Farm Land</p>
           
 
             </div>
@@ -69,7 +69,7 @@ const Landslider = () => {
     </div>
     {/* swipers */}
 
-    <div className=' mt-3    w-280 h-114 rounded-xl flex justify-items-center  justify-self-center items-center lg:w-192 lg:h-116 md:w-145.5  max-sm:w-104 max-sm:h-116   xl:w-243.5' >
+    <div className=' mt-3    w-280 h-114 rounded-xl flex justify-items-center  justify-self-center items-center lg:w-192 lg:h-116 md:w-145.5  sm:w-104 sm:h-116   xl:w-243.5  max-xs:flex max-xs:justify-center max-xs:w-[266px] max-xs:h-[398px]' >
 
 <Swiper
 modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
@@ -88,7 +88,9 @@ breakpoints={{
 650: { spaceBetween:30 },
 600: {  width: 600,
   slidesPerView: 1, },
-768: {  width: 768,
+300: {  width: 300,
+  slidesPerView: 1, },
+767: {  width: 768,
   slidesPerView: 2, },
 
 }}>

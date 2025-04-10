@@ -21,30 +21,30 @@ import 'swiper/css/scrollbar';
 export const Carslider = () => {
   return (
     <>
-    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5 max-sm:w-108 xl:w-241 '>
+    <div className='w-253 h-22.5 rounded-2xl bg-backgroundWHITE flex flex-row gap-10 justify-center items-center justify-self-center lg:w-190 md:w-145.5 sm:w-108 xl:w-241  max-xs:w-[234px] max-xs:h-[59px]'>
         <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-primary drop-shadow-md flex flex-row gap-2.5 '>
-            <img className='w-12.5 h-12.5 rounded-xl' src={MINP1} alt="" srcset="" />
-            <p className='font-Roboto font-semibold text-2xl leading-5 text-backgroundWHITE mt-2.5 '>All properties</p>
+            <img className='w-12.5 h-12.5 rounded-xl max-xs:hidden' src={MINP1} alt="" srcset="" />
+            <p className='font-Roboto font-semibold text-2xl leading-5 text-backgroundWHITE mt-2.5 max-xs:text-base max-xs:leading-[100%]'>All properties</p>
         </div>
 
-        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-sm:hidden xl:flex'>
+        <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 sm:hidden xl:flex max-lg:hidden'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp2} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-5 text-para mt-2.5 '>For sale</p>
         </div>
 
         <div className='w-46.5 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden xl:flex'>
-            <img className='w-12.5 h-12.5 rounded-xl' src={minp3} alt="" srcset="" />
-            <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 '>For rent</p>
+            <img className='w-12.5 h-12.5 rounded-xl max-xs:hidden' src={minp3} alt="" srcset="" />
+            <p className='font-Roboto font-semibold text-2xl leading-7 text-para mt-2.5 sm:mt-1.5 max-sm:text-base leading-[100%]'>For rent</p>
         </div>
 
-        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 md:hidden max-sm:hidden xl:flex'>
+        <div className='w-62 h-16.5 rounded-xl py-2 pr-7 pl-2 bg-Cardc drop-shadow-md flex flex-row gap-2.5 max-md:hidden max-sm:hidden max-xs:hidden xl:flex lg:-ml-5.5'>
             <img className='w-12.5 h-12.5 rounded-xl' src={minp4} alt="" srcset="" />
             <p className='font-Roboto font-semibold text-2xl leading-7 text-bartext mt-2.5 '>Apartments</p>
         </div>
         
     </div>
 
-    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5 max-sm:w-104 max-sm:h-116 xl:w-240.5' >
+    <div className=' mt-5    w-280 h-114 flex justify-items-center  justify-self-center lg:w-192 lg:h-101 md:w-145.5 sm:w-104 sm:h-116 xl:w-240.5 max-xs:w-[266px] max-xs:h-[464px]' >
 
         <Swiper
         modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
@@ -67,6 +67,8 @@ export const Carslider = () => {
           slidesPerView: 2, },
         600: {  width: 768,
           slidesPerView: 1, },
+        1280: {  width: 1280,
+          slidesPerView: 3, },
 
       }}>
     
