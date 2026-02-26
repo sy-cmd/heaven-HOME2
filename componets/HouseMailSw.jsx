@@ -4,14 +4,14 @@ import CardsliderCard from './CardsliderCard'
 
 const HouseMailSw = () => {
   return (
-   <>
-   <div className='w-310 h-292 rounded-2xl border-20 border-backgroundWHITE px-10 pt-10 pb-15 bg-Cardc justify-self-center flex flex-col gap-10 justify-center items-center justify-items-center lg:w-211 lg:h-390 md:w-165.5 md:h-395.5 sm:w-124 sm:h-505.5 xl:w-275 xl:h-294.5 max-xs:w-[318px] max-xs:h-[1887px]'>
-    <Carslider/>
-    <CardsliderCard/>
-
-   </div>
-
-   </>
+    <section className='mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8'>
+      <div className='rounded-3xl border border-white/70 bg-white/70 p-4 shadow-[0_16px_36px_-24px_rgba(66,60,130,0.8)] backdrop-blur-md sm:p-6 lg:p-8'>
+        <Carslider />
+        <div className='mt-8'>
+          <CardsliderCard />
+        </div>
+      </div>
+    </section>
   )
 }
 

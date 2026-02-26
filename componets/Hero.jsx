@@ -1,71 +1,52 @@
 import React from 'react'
-import heroHouse from '../src/assets/img/logo/Annotation 2025-03-06 124313.png';
+import { HiMiniSparkles } from 'react-icons/hi2'
+import heroHouse from '../src/assets/img/logo/Annotation 2025-03-06 124313.png'
 
-// w-full h-269
 const Hero = () => {
   return (
     <>
-    <div className='   bg-backgroundS '>
-        
-        <div className='lg:w-184.5 lg:h-144 lg:flex lg:flex-col lg:justify-self-center'>
-            {/* img */}
-        <div className='flex justify-self-center justify-center items-center'>
-        <img className='w-171.5 h-59 ' src={ heroHouse} alt="" />
-        </div>
-            {/* text */}
-        <div className='flex flex-col items-center gap-13 max-xs:gap-2 justify-center'>
-            <div className='lg:w-184.5 lg:h-40.5'>
-                <h1 className='text-90px text-center font-Roboto text-primary leading-28 tracking-normal'>Your Dream Home
-                Starts Here.</h1>
-            {/* <h1 className='  text-8xl font-normal  lg:text-7xl lg:leading-none tracking-[16px] text-center text-primary font-Roboto max-sm:w-148 max-sm:text-6xl max-xs:font-bold max-xs:text-9xl max-xs:leading-11  max-xs:w-80 max-xs:hidden' >Your Dream Home
-            Starts Here.</h1> */}
+      <section className='px-4 pb-8 pt-10 sm:px-6 lg:px-8'>
+        <div className='mx-auto flex w-full max-w-6xl flex-col items-center'>
+          <div className='mb-6 inline-flex items-center gap-2 rounded-full border border-[#ffd3e2] bg-white/80 px-4 py-2 text-sm font-semibold text-primary shadow-sm'>
+            <HiMiniSparkles color='#f06a9b' />
+            Trusted by 12k+ happy homeowners
+          </div>
 
+          <img className='h-auto w-full max-w-2xl object-contain drop-shadow-md' src={heroHouse} alt='Stylized homes illustration' />
+
+          <div className='mt-6 flex w-full max-w-3xl flex-col items-center text-center'>
+            <h1 className='font-Roboto text-5xl font-semibold leading-tight text-primary sm:text-6xl lg:text-7xl'>
+              Your Dream Home Starts Here.
+            </h1>
+
+            <p className='mt-4 max-w-2xl font-Roboto text-base leading-7 text-para sm:text-lg'>
+              Discover beautiful homes, expert agents, and smooth buying and renting journeys designed around your
+              lifestyle.
+            </p>
+
+            <div className='mt-8 flex flex-col gap-3 sm:flex-row'>
+              <button className='h-12 rounded-full bg-primary px-9 font-Roboto text-base font-bold text-white'>Get started</button>
+              <button className='h-12 rounded-full border-2 border-primary/25 bg-white/80 px-9 font-Roboto text-base font-bold text-primary'>
+                Learn more
+              </button>
             </div>
-      
-        
-        {/* <h1 className='font-Roboto font-bold text-5xl text-center text-primary md:hidden lg:hidden xl:hidden  max-xs:w-80 ' >Your Dream Home
-        Starts Here.</h1> */}
-        <p className=' w-148 h-12.5 text-base text-para font-light font-Roboto leading-6 text-center  max-xs:w-87 max-xs:h-25'>
-        Find your dream home with our expert guidance. We connect you with top-rated properties 
-        and provide personalized service every step of the way.
-        </p>
-        <div className='flex flex-row gap-6 justify-self-center mb-3 -mt-6 max-xs:-mt-2.5'>
-            <button className=' cursor-pointer hover:bg-[#183c59]  py-4.5 px-9 bg-primary rounded-xl text-white text-base text-center  font-semibold font-Roboto'>Get started </button>
-            <button className=' cursor-pointer hover:bg-gray-50 py-4 px-9 border-2 border-para rounded-xl text-para text-base text-center font-semibold font-Roboto '> Learn more </button>
+          </div>
         </div>
+      </section>
+
+      <section className='px-4 pb-8 sm:px-6 lg:px-8'>
+        <div className='mx-auto grid w-full max-w-5xl grid-cols-2 gap-4 sm:grid-cols-4'>
+          {[1, 2, 3, 4].map((item) => (
+            <div
+              key={item}
+              className='rounded-3xl border border-white/70 bg-white/75 p-5 text-center shadow-[0_16px_36px_-24px_rgba(66,60,130,0.8)] backdrop-blur'
+            >
+              <h3 className='font-Roboto text-3xl font-semibold text-primary'>12,476</h3>
+              <p className='mt-1 font-Roboto text-base font-medium text-para'>Houses Sold</p>
+            </div>
+          ))}
         </div>
-        </div>
-    </div>
-
-    <div className='flex flex-row gap-22.5 pl-2.5 pr-2.5 justify-center items-center bg-backgroundS  h-50 -mt-5 '>
-        <div className='flex flex-col gap-4'>
-            <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
-            <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
-        </div>
-
-        <div className='flex flex-col gap-4'>
-            <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
-            <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
-        </div>
-
-        <div className='flex flex-col gap-4 max-sm:hidden'>
-            <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
-            <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
-        </div>
-
-        <div className='flex flex-col gap-4 max-sm:hidden'>
-            <h3 className='text-4xl font-semibold leading-11 text-center text-para font-Roboto'>12,476</h3>
-            <h5 className='font-normal text-xl leading-6 text-center text-para font-Roboto' >Houses Sold</h5>
-        </div>
-
-      
-
-    
-
-     
-    </div>
-
-
+      </section>
     </>
   )
 }

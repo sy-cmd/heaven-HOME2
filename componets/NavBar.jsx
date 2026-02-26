@@ -1,109 +1,108 @@
-import React from 'react'
-import logo from '../src/assets/img/logo/Annotation 2025-03-05 162204.png';
-import { IoIosMenu } from "react-icons/io";
-import { RxCross1 } from "react-icons/rx";
+import React, { useState } from 'react'
+import logo from '../src/assets/img/logo/Annotation 2025-03-05 162204.png'
+import { IoIosMenu } from 'react-icons/io'
+import { RxCross1 } from 'react-icons/rx'
 
-const NavBar = () => {
+const navLinks = [
+  { label: 'Home', section: 'home' },
+  { label: 'Property', section: 'lands' },
+  { label: 'Services', section: 'services' },
+  { label: 'Agents', section: 'agents' },
+  { label: 'About Us', section: 'contact' },
+]
 
-  function showSideBar(){
-    const bar = document.getElementById( 'menubtn')
-    const nav = document.getElementById('sideBar')
-    if (bar){
-      bar.addEventListener('click', ()=>{
-        nav.style.display ='flex'
-        console.log('yes');
-      })
+const NavBar = ({ onNavigate }) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleNavigate = (sectionId) => {
+    if (typeof onNavigate === 'function') {
+      onNavigate(sectionId)
     }
-    
+    setIsOpen(false)
   }
 
-  function showHide(){
-    const bar = document.getElementById( 'closebtn')
-    const nav = document.getElementById('sideBar')
-    if (bar){
-      bar.addEventListener('click', ()=>{
-        nav.style.display ='none'
-        console.log('yes');
-      })
-    }
-    
-  }
   return (
     <>
-        <nav className=' w-full h-25  bg-white   '>
-            
-            <div className=' w-full h-15 flex flex-row justify-between justify-self-center p-5' >
+      <nav className='sticky top-3 z-50 px-4 sm:px-6 lg:px-8'>
+        <div className='mx-auto flex h-20 w-full max-w-7xl items-center justify-between rounded-3xl border border-white/60 bg-white/75 px-4 shadow-[0_16px_36px_-24px_rgba(66,60,130,0.9)] backdrop-blur-xl sm:px-6 lg:px-8'>
+          <button
+            type='button'
+            className='xl:hidden rounded-xl bg-white p-1 text-primary'
+            onClick={() => setIsOpen(true)}
+            aria-label='Open menu'
+          >
+            <IoIosMenu size={38} color='#2f3c82' />
+          </button>
 
-            <button  className='xl:hidden' onClick={showSideBar} id='menubtn' >    <IoIosMenu size={50} color='#0A2540' /></button>
+          <div className='flex items-center gap-3'>
+            <img className='h-11 w-10 object-contain sm:h-12 sm:w-11' src={logo} alt='Haven Homes logo' />
+            <p className='hidden font-Roboto text-sm font-bold tracking-wider text-primary sm:block'>HAVEN HOMES</p>
+          </div>
 
-               <div className=''>
-                
-               <img className='w-12.5 h-15' src={logo} alt="" srcset="" />
-               </div>
-              
-                  {/* above-1024px */}
-               <div className='flex flex-row gap-20 max-xl:hidden'>
-           
-               <ul className='flex flex-row gap-10 mt-5'>
-                <a href="http://" target="_blank" rel="noopener noreferrer"><li className=' w-20 h-9 py-2 px-4.5 bg-nav rounded-xl text-base font-normal font-Roboto text-<12> text-center  -mt-2'>Home</li></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'>Property</li></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"><li className=' text-base font-normal font-Roboto text-<12>'>Services</li></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'> Agents</li></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'>Aboult Us</li></a>
-                
-               
-                
-               
-               
-               </ul>
+          <ul className='hidden items-center gap-4 xl:flex'>
+            {navLinks.map((item, index) => (
+              <li key={item.label}>
+                <button
+                  type='button'
+                  onClick={() => handleNavigate(item.section)}
+                  className={`rounded-full px-4 py-2 font-Roboto text-base font-semibold text-primary ${
+                    index === 0 ? 'bg-nav' : 'hover:bg-nav/80'
+                  }`}
+                >
+                  {item.label}
+                </button>
+              </li>
+            ))}
+          </ul>
 
-               </div>
-                 
+          <div className='hidden items-center gap-3 xl:flex'>
+            <button className='h-11 rounded-full bg-primary px-6 font-Roboto text-base font-bold text-white'>Buy a House</button>
+            <button className='h-11 rounded-full bg-secondary px-6 font-Roboto text-base font-bold text-white'>Rent a House</button>
+          </div>
+        </div>
+      </nav>
 
-
-
-             
-
-               <div className='flex flex-row gap-3.5 md:hidden max-sm:hidden sm:hidden xl:flex'>
-               <button className=' w-40 h-14 py-4.5 px-2 rounded-xl bg-primary  text-amber-50 text-1xl cursor-pointer hover:bg-[#183c59] '>Buy a HOUSE</button>
-               <button className='w-40 h-14 py-4.5 px-2 rounded-xl color-tealish text-amber-50 text-1xl bg-secondary cursor-pointer hover:bg-[#52d1c5]'> Rent A house</button>
-
-               </div>
-
-              
-
-
-
-
-
-
+      {isOpen && (
+        <div className='fixed inset-0 z-[60] bg-[#2f3c82]/25 backdrop-blur-sm xl:hidden' onClick={() => setIsOpen(false)}>
+          <aside
+            className='absolute left-3 top-3 flex h-[calc(100%-1.5rem)] w-72 flex-col gap-6 rounded-3xl bg-white/95 p-6 shadow-2xl'
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className='flex items-center justify-between'>
+              <p className='font-Roboto text-xl font-bold text-primary'>Menu</p>
+              <button
+                type='button'
+                onClick={() => setIsOpen(false)}
+                className='rounded-lg bg-nav/70 p-1 text-primary'
+                aria-label='Close menu'
+              >
+                <RxCross1 size={28} color='#2f3c82' />
+              </button>
             </div>
 
-             {/* below-1024px */}
+            <ul className='flex flex-col gap-3'>
+              {navLinks.map((item, index) => (
+                <li key={item.label}>
+                  <button
+                    type='button'
+                    onClick={() => handleNavigate(item.section)}
+                    className={`block w-full rounded-xl px-4 py-2 text-left font-Roboto text-base font-semibold text-primary ${
+                      index === 0 ? 'bg-nav' : 'bg-backgroundS/50'
+                    }`}
+                  >
+                    {item.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
 
-
-             <div className='  gap-20 justify-center justify-items-center justify-self-start  '>
-           
-           <ul id='sideBar' className='hidden flex-col justify-items-center items-center  gap-10 -mt-11 position:fixed top-0 left-0 right-0 h-100 w-62.5 z-9000  backdrop-blur-lg    bg-Cardc  '>
-           <button  onClick={showHide}   id='closebtn'>  <RxCross1 size={50} color='#0A2540' /> </button>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><li className=' w-20 h-9 py-2 px-4.5 bg-nav rounded-xl text-base font-normal font-Roboto text-<12> text-center  -mt-2'>Home</li></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'>Property</li></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><li className=' text-base font-normal font-Roboto text-<12>'>Services</li></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'> Agents</li></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"> <li className=' text-base font-normal font-Roboto text-<12>'>Aboult Us</li></a>
-            
-           
-            
-           
-           
-           </ul>
-
-           </div>
-
-        </nav>
-
-
-
+            <div className='mt-2 flex flex-col gap-3'>
+              <button className='h-11 rounded-full bg-primary px-5 font-Roboto text-sm font-bold text-white'>Buy a House</button>
+              <button className='h-11 rounded-full bg-secondary px-5 font-Roboto text-sm font-bold text-white'>Rent a House</button>
+            </div>
+          </aside>
+        </div>
+      )}
     </>
   )
 }

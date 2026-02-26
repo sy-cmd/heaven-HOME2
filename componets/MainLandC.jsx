@@ -4,15 +4,14 @@ import LandCard from './LandCard'
 
 const MainLandC = () => {
   return (
-    <>
-    <div className='w-310 h-303.5 rounded-2xl border-20 border-backgroundWHITE pt-10 pb-18 px-10 bg-Cardc flex flex-col items-center justify-self-center justify-center gap-15 lg:w-211 lg:h-401.5 md:w-165.5 md:h-406.5 sm:w-134 sm:h-524 xl:w-275 xl:h-281 max-xs:w-[318px] max-xs:h-[1927px]  '>
-        <Landslider/>
-        <LandCard/>
-
-    </div>
-
-
-    </>
+    <section className='mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8'>
+      <div className='rounded-3xl border border-white/70 bg-white/70 p-4 shadow-[0_16px_36px_-24px_rgba(66,60,130,0.8)] backdrop-blur-md sm:p-6 lg:p-8'>
+        <Landslider />
+        <div className='mt-8'>
+          <LandCard />
+        </div>
+      </div>
+    </section>
   )
 }
 
